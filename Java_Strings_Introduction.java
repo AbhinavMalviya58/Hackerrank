@@ -28,8 +28,8 @@ public class Java_Strings_Introduction {
 		char valu = (char) (ah-delta); // val = char(a-32) = 'A'
 		String ans = val + A.substring(1);
 		String answ = valu + B.substring(1);
-		System.out.print(ans);
-		System.out.print(" "+answ);
+		System.out.print(ans+" ");
+		System.out.print(answ);
     }
 }
 
