@@ -16,7 +16,7 @@ public class Java_Strings_Introduction {
         /*  For the second line, write Yes if A is lexicographically greater than B otherwise print No instead.  */ 
         int i = A.compareTo(B);
         if(i <= 0)
-            System.out.println("NO");
+            System.out.println("No");
         else
             System.out.println("Yes");
         /*   capitalize the first letter in both A and B and print them on a single line, separated by a space. */ 
