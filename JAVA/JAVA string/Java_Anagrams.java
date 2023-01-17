@@ -6,7 +6,6 @@ public class Java_Anagrams {
         s2=s2.toLowerCase();
         
         if(s1.length()==s2.length())
-
         {
             int[] a = new int[256];
             int[] b = new int[256];
@@ -17,7 +16,6 @@ public class Java_Anagrams {
             for (int i = 0; i < 256; i++) {
                 if (a[i] != b[i])
                     return false;
-
             }
             return true;
         }
@@ -26,7 +24,6 @@ public class Java_Anagrams {
             return false;
         }
     }
-
     public static void main(String[] args) {
     
         Scanner scan = new Scanner(System.in);
